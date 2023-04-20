@@ -2,9 +2,9 @@ package br.ucsal.bes;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 public class Relogio implements Runnable{
-    private Integer tempo = 500;
+    private Integer tempo = 300;
     private String name="";
-    private static final Integer tempoTotal = 500;
+    private static final Integer tempoTotal = 300;
     private AtomicBoolean done = new AtomicBoolean(false);
     public AtomicBoolean isStopped=new AtomicBoolean(true);
 
